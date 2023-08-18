@@ -1,0 +1,154 @@
+
+.container{
+	height:80%;
+	width:80%;
+	border:3px solid white;	
+	margin-top:5%;
+	margin-left:9%;
+	box-shadow: 0 8px 32px 0 reba(31,38,135,37);
+
+}
+.head{
+	height:10%;
+	width:100%;
+	background-color:#FFFF80;
+	text-align:center;
+	padding-top:1px;
+	font-weight:bold;
+	
+}
+.heading{
+	font-family:Tahoma;
+	color:red;
+	font-size:40px;
+	text-shadow:2px 2px 4px rgba(0,0,0,.2);
+}
+.content{
+	height:90%;
+	width:100%;
+	display:flex;
+	background-color:#ffff80;
+	
+	
+}
+.box{
+	height:100%;
+	width:50%;
+
+}
+.menu{
+	padding-top:40px;
+	height:90%;
+	width:50%;
+	
+	line-height:80px;
+}
+.square{
+	width: 25%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 3.66%;
+	border-radius:80px;
+	box-shadow:inset 2px 2px 5px white, 5px 5px 5px rgba(0,0,0,1.16)
+}
+#reset{
+	width:180px;
+	height:60px;
+	line-height:50px;
+	font-size:25px;
+	color:red;
+	background:rgba(0,255,0,0.06);
+	border:4px solid red;
+	border-radius:20px;
+	margin-left:150px;
+	margin-top:-60px;
+	font-weight:bold;
+	box-shadow:3px 3px 5px rgba(31,38,135,.37)
+}
+#reset:hover{
+	background:red;
+	color:white;
+	transition: .5s;
+}
+
+.mode{
+	width:80px;
+	height:35px;
+	color:red;
+	font-size:25px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-radius:10px;
+	text-shadow:2px 2px 4px rgba(255,255,255,0.2);
+	margin-left:100px;
+	font-family:tahoma;
+}
+.mode:hover{
+	background:white;
+	color:red;
+	transition: .5s;
+	
+}
+#color-display{
+	font-family:tahoma;
+	font-size:40px;
+	color:red;
+	font-weight:bold;
+	padding-left:70px;
+	display: block;
+	text-shadow:2px 2px 4px rgba(0,0,0,.2);
+}
+#message{
+	font-family:tahoma;
+	font-size:40px;
+	color:red;
+	font-weight:bold;
+	padding-left:140px;
+	text-shadow:2px 2px 4px rgba(0,0,0,.2);
+	
+}
+/*.head{
+	height:10%;
+	width:100%;
+	background-color:orange;
+	float:left;	
+}
+.box{
+	height:80%;
+	width:50%;
+	background-color:yellow;
+	float:left;
+}
+.content{
+	height:80%;
+	width:50%;
+	background-color:red;
+}
+.game{
+	padding-left:40%;
+}
+.boxxx{
+	border:1px solid black;
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color:yellow;
+	height:400px;
+	margin-left:0px;
+}
+.contentxx{
+	background-color:red;
+	max-width: 600px;
+	height:400px;
+}
+.squarexx{
+	border:1px solid black;
+	width: 25%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	
+}
